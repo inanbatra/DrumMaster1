@@ -1,0 +1,39 @@
+body {
+	margin: 0 auto;
+	width: 600px;
+	background-color: lightblue;
+}
+
+
+#flasher {
+	height: 15px;
+	width: 15px;
+	border-radius: 10px;
+	background-color: white;
+	display: none;
+}
+
+#metronome {
+	border: 10px solid #aaa;
+	height: 600px;
+	width: 800px;
+	align: right;
+}
+
+#swinger {
+	background: white;
+	display: block;
+	height: 240px;
+	margin: 0 auto;
+	width: 10px;
+
+
+	-webkit-transition: all 0.66s ease-in-out;
+	-moz-transition: all 0.66s ease-in-out;
+	-o-transition: all 0.66s ease-in-out;
+	-ms-transition: all 0.66s ease-in-out;
+	transition: all 1s ease-in-out;
+
+	-webkit-transform-origin: 50% 100%;
+
+}

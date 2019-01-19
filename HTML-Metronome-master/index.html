@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Metronome</title>
+		<link rel="stylesheet" href="metronome.css" />
+		<script src="metronome.js"></script>
+	</head>
+	<body>
+		<div class="wrapper"></div>
+		<div id="metronome">
+			<div id="swinger"></div>
+		</div>
+<!--
+		<div id="controls">
+			<div id="plus"> + </div>
+			<div id="minus"> - </div>
+			<div id="startstop">Start</div>
+		</div>
+-->
+		<script>
+			var metronome = new Metronome(document.getElementById('metronome'));
+		</script>
+		
+	</body>
+</html>
